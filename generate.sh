@@ -2,7 +2,7 @@
 
 mkdir -p site
 
-for n in {1..100}; do
+for n in {1..1000}; do
   prefix=""
   if [ $((RANDOM % 2)) -eq 0 ]; then
     s=$((RANDOM % 10 + 1))
